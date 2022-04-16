@@ -1,0 +1,26 @@
+.nc-container{
+    width: 98vw;
+    height: 97vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    p{
+        font-size: 7em;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        letter-spacing: 3px;
+        color: #907231;
+    }
+    button{
+        font-size: 3em;
+        background: transparent;
+        border: none;
+        letter-spacing: 3px;
+        font-weight: 600;
+        a{
+            text-decoration: none;
+            color: #c7a015;
+        }
+    }
+}
