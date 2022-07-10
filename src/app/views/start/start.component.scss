@@ -1,0 +1,40 @@
+.start{
+    width: 99vw;
+    height: 98vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    h2{
+        margin-top: 8vh;
+        margin-left: 10vw;
+        margin-right: 18vw;
+        font-size: 2.3em;
+        letter-spacing: 4px;
+    }
+
+    .levelsBlocks{
+        margin-top: 10vh;
+        width: 40%;
+        height: 50%;
+        display: grid;
+        //38.7vh
+        grid-template-columns: repeat(2, 35%);
+        grid-template-rows: repeat(2, 33%);
+        gap: 5px;
+
+        .level{
+            width: 13vw;
+            height: 15vh;
+            color: #222;
+            font-weight: 600;
+            letter-spacing: 3px;
+            font-size: 1.6em;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+    }
+}

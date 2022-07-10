@@ -2,25 +2,52 @@
     width: 98vw;
     height: 97vh;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
     align-items: center;
 
-    p{
-        font-size: 7em;
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        letter-spacing: 3px;
-        color: #907231;
+    .logo{
+        width: 30vw;
+        height: 40vh;
+        margin-left: 10vw;
+        margin-right: 20vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        cursor: default;
+
+        .firstLetters{
+            font-size: 9em;
+            letter-spacing: 10px;
+            padding: 2px;
+        }
+        p{
+            margin: 20px 0;
+            font-size: 3.6em;
+            padding: 2px;
+        }
     }
+
+    .logo::after{
+        content: '';
+        width: 0.2vw;
+        height: 60vh;
+        background-color: #C4C4C4;
+        position: absolute;
+        left: 50vw;
+    }
+    
     button{
         font-size: 3em;
         background: transparent;
         border: none;
         letter-spacing: 3px;
         font-weight: 600;
+        margin-right: 3vw;
+        line-height: 170%;
         a{
             text-decoration: none;
-            color: #c7a015;
+            color: #222222;
         }
     }
 }
