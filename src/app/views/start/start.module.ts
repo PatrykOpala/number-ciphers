@@ -8,7 +8,7 @@ import { MediumComponent } from '../medium/medium.component';
 import { SpaceComponent } from '../space/space.component';
 
 const startRouter: Routes = [
-  {path: 'start', component: StartComponent},
+  {path: '', component: StartComponent},
   {path: 'start/space', component: SpaceComponent},
   {path: 'start/medium', component: MediumComponent},
   {path: 'start/advanced', component: AdvancedComponent},
