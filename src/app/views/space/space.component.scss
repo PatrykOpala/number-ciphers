@@ -1,6 +1,52 @@
-header{
-    padding-left: 10px;
-    p{
-        font-size: 2.3rem;
+.space{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    header{
+        padding-left: 10px;
+        p{
+            font-size: 2.3rem;
+        }
+    }
+    
+    .letter-iteration-and-calculation-container{
+        width: 80vw;
+        height: 45vh;
+        margin-top: 7vh;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .letter-row, .calculation-row{
+            display: flex;
+            width: fit-content;
+            align-items: center;
+            .letter, .calc{
+                font-size: 3.3rem;
+                border: 2px solid transparent;
+                padding: 5px;
+                margin-left: 20px;
+                text-align: center;
+                align-self: center;
+                background-color: #000;
+                color: #fff;
+            }
+
+            .letter{
+                width: 50px;
+            }
+
+            .calc{
+                margin-top: 4px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: 1.7rem;
+                width: 50px;
+            }
+        }
     }
 }
+
